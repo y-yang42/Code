@@ -4,10 +4,8 @@
 
 import torch
 import torch.nn as nn
-import torch.nn.functional as F
 from torch.autograd import Function
 from torch import Tensor
-from torch.nn.modules.utils import _pair
 
 import math
 
