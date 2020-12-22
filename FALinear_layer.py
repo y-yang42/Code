@@ -27,7 +27,6 @@ class FALinearFunc(Function):
         input, weight, weight_fb, bias = ctx.saved_tensors
         grad_input = grad_weight = grad_weight_fb = grad_bias = None
 
-
         if ctx.needs_input_grad[0]:
             grad_input = grad_output.mm(weight_fb) # use weight_fb instead of weight
         if ctx.needs_input_grad[1]:
