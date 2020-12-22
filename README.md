@@ -12,5 +12,5 @@
 
 ## FALinear Layer
 [Python, PyTorch]
-- Implementation oflinear feedback alignment layer as described in Lillicrap et al., 2016 (https://www.nature.com/articles/ncomms13276)
+- Implementation of linear feedback alignment layer as described in Lillicrap et al., 2016 (https://www.nature.com/articles/ncomms13276)
 - Adapted from code example from https://pytorch.org/docs/stable/notes/extending.html
