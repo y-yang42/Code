@@ -10,3 +10,7 @@
 - Classify handwritten digits
 - PCA, k-means, spectural clustering, logistic regression, visualization on MNIST data
 
+## FALinear Layer
+[Python, PyTorch]
+- Implementation oflinear feedback alignment layer as described in Lillicrap et al., 2016 (https://www.nature.com/articles/ncomms13276)
+- Adapted from code example from https://pytorch.org/docs/stable/notes/extending.html
